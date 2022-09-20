@@ -1,0 +1,57 @@
+:root {
+    --bg-blue: #1056BF;
+}
+
+#card {
+    margin-top: 4rem;
+}
+
+.bg-blue {
+    background-color: var(--bg-blue) !important;
+    color: #fff !important;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.hero {
+    background: linear-gradient(180deg, rgba(16, 86, 191, .85), rgba(16, 86, 191, .85)), url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    color: #fff;
+    min-height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    line-height: 140%;
+}
+
+.btn-register {
+    background-color: #022f73;
+    color: #fff;
+    transition: all .3s;
+    font-size: 1.2rem;
+}
+
+.btn-register:hover {
+    background-color: #084298 !important;
+}
+
+.card {
+    border: none !important;
+    margin-bottom: 3rem;
+}
+
+.card-icon {
+    font-size: 3rem;
+    color: var(--bg-blue);
+}
+
+.card-text h3 {
+    color: var(--bg-blue);
+}
